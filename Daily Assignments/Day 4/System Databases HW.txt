@@ -1,0 +1,8 @@
+System Databases
+1. Master db: Contains crucial system-level information, like login accounts, configuration settings, and database metadata.
+
+2. Temp db: Stores temporary data, like temporary tables and intermediate results. Recreated every time SQL Server restarts.
+
+3. Msdb: Manages automation tasks, like SQL Server Agent jobs, alerts, backups, and maintenance plans.
+
+4. Model db: Template database for creating new databases, defining their schema, settings, and objects by default. 

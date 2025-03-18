@@ -1,0 +1,25 @@
+--Assignment 3 (Day3)
+--Set II using same table as Assignment 2
+--1
+SELECT * FROM EMP
+WHERE Job = 'Manager';
+--2
+select Ename, Sal from EMP
+WHERE Sal > 1000
+--3
+SELECT Ename, Sal FROM EMP
+WHERE Ename != 'JAMES';
+--4
+SELECT * from EMP where Ename like 'S%'
+--5
+select Ename from EMP where Ename like '%a%'
+--6
+select Ename from EMP WHERE Ename like '___l%'
+--7
+select Ename, Sal, (Sal/30) as 'Daily Salary' from EMP WHERE Ename= 'JONES'
+--8
+select sum(Sal) as 'Total Salary' from EMP
+--9
+select avg(Sal*12) as 'Average Annual Salary' from EMP
+--10
+select Ename, Job, Sal, Deptno from EMP WHERE Job != 'SALESMAN'

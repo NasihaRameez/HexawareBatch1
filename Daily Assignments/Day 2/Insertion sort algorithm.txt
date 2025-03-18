@@ -1,0 +1,8 @@
+Insertion Sort Algorithm
+1. Begin.
+2. Take the 2nd element and compare it with the previous element. If it is smaller, shift it to the left.
+3. Take the 3rd element and compare it with the previous elements. If it is smaller, shift it to the correct position.
+4. Take the next element, compare it with previous elements, and shift it accordingly.
+5. Continue until all elements are sorted.
+6. End.
+

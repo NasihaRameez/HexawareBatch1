@@ -1,0 +1,12 @@
+Algorithm for evaluating three test marks and reassessment:
+1. Start.
+2. Input three test marks m1, m2, m3.
+3. Calculate the average avg= (m1+m2+m3) / 3.
+4. Check if avg ≥ 75.
+If yes, print avg and go to step 7
+If no, go to the next step
+5. Reassessment is required.
+6. Input new marks m1, m2 and m3, repeat from step 3.
+7. End
+
+ 

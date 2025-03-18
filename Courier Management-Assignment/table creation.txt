@@ -1,0 +1,51 @@
+use CourierManagementdb
+create table Customers
+(
+CustomerID INT PRIMARY KEY,
+Name varchar(255),
+Email varchar(255) unique,
+Password varchar(255),
+ContactNumber varchar(20),
+CAddress text,
+)
+CREATE TABLE Couriers
+(
+CourierID int primary key,
+SenderName varchar(255),
+SenderAddress text,
+ReceiverName varchar(255),
+ReceiverAddress text,
+Weight decimal(5,2),
+Status varchar(50),
+TrackingNumber varchar(20) unique,
+DeliveryDate date,
+)
+create table CourierServices
+(
+ServiceID int primary key,
+ServiceName varchar(100),
+Cost decimal(8,2)
+)
+create table Employee 
+(
+EmployeeID INT PRIMARY KEY,
+Ename VARCHAR(255),
+Eemail VARCHAR(255) UNIQUE,
+EcontactNumber VARCHAR(20),
+Role VARCHAR(50),
+Salary DECIMAL(10, 2)
+)
+create table Location
+(
+LocationID INT PRIMARY KEY,
+LocationName VARCHAR(100),
+Address TEXT
+)
+create table Payment
+(
+PaymentID INT PRIMARY KEY,
+CourierID INT references Couriers(CourierID),
+LocationID INT references Location(LocationID),
+Amount decimal(10,2),
+Paymentdate date
+)

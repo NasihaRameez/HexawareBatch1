@@ -1,0 +1,91 @@
+use ITfirmDB
+create table DEPT
+(
+Deptno int primary key,
+Dname varchar(25) not null,
+Loc varchar(30) not null,
+)
+create table EMP
+(
+Empno int primary key,
+Ename varchar(20) not null,
+Job varchar(30),
+Mgr_ID int references EMP(Empno),
+Hiredate date,
+Sal int,
+Comm int,
+Deptno int references DEPT(Deptno)
+)
+insert into DEPT values(10,'ACCOUNTING','NEW YORK'),(20,'RESEARCH','DALLAS'),(30,'SALES','CHICAGO'),(40,'OPERATIONS','BOSTON')
+select * from DEPT
+INSERT INTO EMP VALUES
+(7369,'SMITH','CLERK',7902,'1980-12-17',800,NULL,20),
+(7499,'ALLEN','SALESMAN',7698,'1981-02-20',1600,300,30),
+(7521,'WARD','SALESMAN',7698,'1981-02-22',1250,500,30),
+(7566,'JONES','MANAGER',7839,'1981-04-02',2975,NULL,20),
+(7654,'MARTIN','SALESMAN',7698,'1981-09-28',1250,1400,30),
+(7698,'BLAKE','MANAGER',7839,'1981-05-01',2850,NULL,30),
+(7782,'CLARK','MANAGER',7839,'1981-06-09',2450,NULL,10),
+(7788,'SCOTT','ANALYST',7566,'1987-04-19',3000,NULL,20),
+(7839,'KING','PRESIDENT',NULL,'1981-11-17',5000,NULL,10),
+(7844,'TURNER','SALESMAN',7698,'1981-09-08',1500,0,30),
+(7876,'ADAMS','CLERK',7788,'1987-05-23',1100,NULL,20),
+(7900,'JAMES','CLERK',7698,'1981-12-03',950,NULL,30),
+(7902,'FORD','ANALYST',7566,'1981-12-03',3000,NULL,20),
+(7934,'MILLER','CLERK',7782,'1982-01-23',1300,NULL,10)
+SELECT * FROM EMP
+select * from DEPT
+--1
+select * from EMP where Ename like 'A%'
+--2
+select * from EMP where Mgr_ID is null
+--3
+select Ename, Empno, Sal from EMP where Sal between 1200 and 1400
+--5
+select count(*) 'NO. OF CLERKS EMPLOYED'  from EMP where Job='CLERK'
+--6
+SELECT Job, avg(Sal) 'Average Salary', count(*) 'No of Employees' from EMP group by Job
+--7
+select Max(Sal) as highest, min(Sal) as lowest from EMP
+--9
+SELECT Ename, Sal from EMP WHERE Job='ANALYST' AND Sal >1200 and Deptno=20 order by Ename asc
+--11
+Select Ename, Sal from EMP WHERE Ename in ('MILLER', 'SMITH')
+--12
+SELECT Ename from EMP where Ename like 'A%' or Ename like 'M%'
+--13
+select Ename, Sal, (Sal*12) 'Yearly Salary' from EMP where Ename = 'SMITH'
+--14
+SELECT Ename, Sal from EMP WHERE Sal not between 1500 and 2850
+--group by eg
+select Deptno, sum(Sal) as 'Total Salary' from EMP
+group by Deptno
+--Reporting data
+SELECT Mgr_ID, COUNT(*) AS Number_of_Employees FROM EMP
+where Mgr_ID is not null
+GROUP BY Mgr_ID;
+--15
+SELECT Mgr_ID, COUNT(*) AS Employee_Count FROM EMP
+WHERE Mgr_ID IS NOT NULL
+GROUP BY Mgr_ID
+HAVING COUNT(*) > 2;
+--10
+SELECT DEPT.Deptno, DEPT.Dname, SUM(E.Sal) AS Total_Salary FROM DEPT
+JOIN EMP E ON DEPT.Deptno = E.Deptno
+GROUP BY DEPT.Deptno, DEPT.Dname;
+--8
+SELECT D.* FROM DEPT D
+LEFT JOIN EMP E ON D.DEPTNO = E.DEPTNO
+WHERE E.DEPTNO IS NULL;
+--Employee and manager assigned using join
+select e1.Ename as 'Employee Name', e2.Ename as 'Manager Name' from EMP e1 join EMP e2
+on e1.Empno = e2.Mgr_id
+--4
+SELECT Empno, Ename, Job, Sal AS 'Old_Salary', Dname FROM EMP E
+JOIN DEPT D ON E.DEPTNO = D.DEPTNO
+WHERE D.Dname = 'RESEARCH';
+UPDATE EMP SET Sal = Sal * 1.10
+WHERE Deptno = (SELECT Deptno FROM DEPT WHERE Dname = 'RESEARCH');
+SELECT Empno, Ename, Job, Sal AS New_Salary, Dname from EMP E
+JOIN DEPT D ON E.Deptno = D.DEPTNO
+WHERE D.DNAME = 'RESEARCH';
