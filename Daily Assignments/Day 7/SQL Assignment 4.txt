@@ -1,0 +1,46 @@
+use ITfirmDB
+--Assignment 4 (Same table as assgn 2)
+--Set III queries
+--1
+select distinct d.Deptno, d.Dname from EMP e 
+join DEPT d on e.Deptno = d.Deptno
+--2
+select Ename as 'Employee', Sal as 'Monthly Salary' from EMP 
+where Sal >ANY (select Sal from EMP where Sal> 1500)
+and Deptno in ( 10, 30)
+select * from EMP
+--3
+select Ename, Job, Sal from EMP
+where Job in ('MANAGER', 'ANALYST')
+AND Sal not in (1000, 3000, 5000)
+--4
+select Ename, Sal, Comm from EMP
+where Comm >  (Sal*1.10)
+--5
+select Ename from EMP where Ename like '%l%l%'
+and Deptno =30 or Mgr_ID= 7782
+--6
+select count(*) as 'Total Employees' from EMP 
+where datediff(year, Hiredate, getdate()) between 30 and 40
+select Ename from EMP 
+where datediff(year, Hiredate, getdate()) between 30 and 40
+--7
+select d.Dname, e.Ename from DEPT d
+join EMP e on d.Deptno = e.Deptno
+order by d.Dname asc, e.Ename desc
+--8
+select Ename,datediff(year, Hiredate, getdate()) as 'Experience' from EMP
+where Ename ='MILLER'
+--9
+select * from EMP where len(Ename) >= 5
+--10
+CREATE TABLE emp10 
+(
+    Empno INT,
+    Ename VARCHAR(20)
+)
+INSERT INTO emp10 (Empno, Ename)
+select e.Empno, e.Ename from EMP e
+join DEPT d on d.Deptno = e.Deptno
+where d.Deptno=10
+select * from emp10

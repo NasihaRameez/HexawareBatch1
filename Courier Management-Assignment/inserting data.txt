@@ -1,0 +1,73 @@
+use CourierManagementdb
+INSERT INTO Customers(CustomerID, Name, Email, Password, ContactNumber, CAddress) VALUES
+(1, 'John Doe', 'johndoe@example.com', 'password123', '555-1234', '123 Elm Street, Springfield'),
+(2, 'Jane Smith', 'janesmith@example.com', 'password456', '555-5678', '456 Oak Avenue, Springfield'),
+(3, 'Alice Johnson', 'alicej@example.com', 'password789', '555-1122', '789 Pine Road, Springfield'),
+(4, 'Bob Brown', 'bobbrown@example.com', 'password101', '555-3344', '101 Maple Lane, Springfield'),
+(5, 'Charlie White', 'charliewhite@example.com', 'password202', '555-5566', '202 Birch Street, Springfield'),
+(6, 'Diana Green', 'dianagreen@example.com', 'password303', '555-7788', '303 Cedar Drive, Springfield'),
+(7, 'Edward Black', 'edwardblack@example.com', 'password404', '555-9900', '404 Pine Lane, Springfield'),
+(8, 'Fiona Blue', 'fionablue@example.com', 'password505', '555-2233', '505 Fir Crescent, Springfield'),
+(9, 'George Yellow', 'georgeyellow@example.com', 'password606', '555-4455', '606 Redwood Avenue, Springfield'),
+(10, 'Helen Red', 'helenred@example.com', 'password707', '555-6677', '707 Cherry Boulevard, Springfield');
+INSERT INTO Couriers(CourierID, SenderName, SenderAddress, ReceiverName, ReceiverAddress, Weight, Status, TrackingNumber, DeliveryDate) VALUES
+(1, 'John Doe', '123 Elm Street, Springfield', 'Jane Smith', '456 Oak Avenue, Springfield', 1.50, 'In Transit', 'TN12345', '2025-03-21'),
+(2, 'Alice Johnson', '789 Pine Road, Springfield', 'Bob Brown', '101 Maple Lane, Springfield', 2.30, 'Delivered', 'TN12346', '2025-03-19'),
+(3, 'Charlie White', '202 Birch Street, Springfield', 'Diana Green', '303 Cedar Drive, Springfield', 0.75, 'Pending', 'TN12347', '2025-03-22'),
+(4, 'Edward Black', '404 Pine Lane, Springfield', 'Fiona Blue', '505 Fir Crescent, Springfield', 5.00, 'Delivered', 'TN12348', '2025-03-18'),
+(5, 'George Yellow', '606 Redwood Avenue, Springfield', 'Helen Red', '707 Cherry Boulevard, Springfield', 3.25, 'In Transit', 'TN12349', '2025-03-20'),
+(6, 'Helen Red', '707 Cherry Boulevard, Springfield', 'John Doe', '123 Elm Street, Springfield', 1.20, 'In Transit', 'TN12350', '2025-03-23'),
+(7, 'Diana Green', '303 Cedar Drive, Springfield', 'Alice Johnson', '789 Pine Road, Springfield', 2.10, 'Delivered', 'TN12351', '2025-03-17'),
+(8, 'Fiona Blue', '505 Fir Crescent, Springfield', 'Bob Brown', '101 Maple Lane, Springfield', 4.00, 'Pending', 'TN12352', '2025-03-24'),
+(9, 'Charlie White', '202 Birch Street, Springfield', 'George Yellow', '606 Redwood Avenue, Springfield', 3.50, 'In Transit', 'TN12353', '2025-03-25'),
+(10, 'Edward Black', '404 Pine Lane, Springfield', 'Jane Smith', '456 Oak Avenue, Springfield', 2.80, 'Delivered', 'TN12354', '2025-03-16');
+INSERT INTO CourierServices (ServiceID, ServiceName, Cost) VALUES
+(1, 'Standard Delivery', 5.50),
+(2, 'Express Delivery', 10.00),
+(3, 'Same Day Delivery', 15.00),
+(4, 'Overnight Delivery', 20.00),
+(5, 'International Shipping', 50.00),
+(6, 'Heavy Package Delivery', 25.00),
+(7, 'Fragile Item Handling', 30.00),
+(8, 'Scheduled Delivery', 7.50),
+(9, 'Gift Packaging', 3.00),
+(10, 'Weekend Delivery', 8.00);
+INSERT INTO Employee (EmployeeID, Ename, Eemail, EcontactNumber, Role, Salary) VALUES
+(1, 'Sarah Connor', 'sarah.connor@example.com', '555-1111', 'Manager', 75000.00),
+(2, 'James Bond', 'james.bond@example.com', '555-2222', 'Courier', 45000.00),
+(3, 'Emma Stone', 'emma.stone@example.com', '555-3333', 'Customer Support', 35000.00),
+(4, 'Chris Hemsworth', 'chris.hemsworth@example.com', '555-4444', 'Driver', 40000.00),
+(5, 'Tom Hanks', 'tom.hanks@example.com', '555-5555', 'Warehouse Staff', 30000.00),
+(6, 'Robert Downey', 'robert.downey@example.com', '555-6666', 'Courier', 45000.00),
+(7, 'Scarlett Johansson', 'scarlett.johansson@example.com', '555-7777', 'Customer Support', 35000.00),
+(8, 'Mark Ruffalo', 'mark.ruffalo@example.com', '555-8888', 'Operations', 55000.00),
+(9, 'Chris Evans', 'chris.evans@example.com', '555-9999', 'Driver', 40000.00),
+(10, 'Morgan Freeman', 'morgan.freeman@example.com', '555-1010', 'Manager', 75000.00);
+INSERT INTO Location (LocationID, LocationName, Address) VALUES
+(11, 'Springfield Central', '123 Central Street, Springfield'),
+(12, 'Downtown Springfield', '456 Main Street, Springfield'),
+(13, 'North Springfield', '789 North Avenue, Springfield'),
+(14, 'East Springfield', '101 East Road, Springfield'),
+(15, 'South Springfield', '202 South Boulevard, Springfield'),
+(16, 'West Springfield', '303 West Lane, Springfield'),
+(17, 'River Side', '404 River Road, Springfield'),
+(18, 'Mountain View', '505 Mountain Drive, Springfield'),
+(19, 'City Square', '606 City Square, Springfield'),
+(20, 'Parkside', '707 Park Street, Springfield');
+INSERT INTO Payment (PaymentID, CourierID, LocationID, Amount, PaymentDate) VALUES
+(21, 1, 11, 5.50, '2025-03-19'),
+(22, 2, 12, 10.00, '2025-03-18'),
+(23, 3, 13, 76.50, '2025-03-17'),
+(24, 4, 14, 15.00, '2025-03-16'),
+(25, 5, 15, 55.00, '2025-03-15'),
+(26, 6, 16, 28.00, '2025-03-14'),
+(27, 7, 17, 60.00, '2025-03-13'),
+(28, 8, 18, 10.00, '2025-03-12'),
+(29, 9, 19, 30.00, '2025-03-11'),
+(30, 10, 20, 42.00, '2025-03-10');
+select * from Customers
+select * from Couriers
+select * from CourierServices
+select * from Employee
+select * from Location
+select * from Payment
