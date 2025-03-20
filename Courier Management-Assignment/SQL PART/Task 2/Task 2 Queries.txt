@@ -1,0 +1,29 @@
+--Task 2 Queries
+--1. List all Customers
+select * from Customers
+--2. List all orders for a specific customer
+select * from Couriers where SenderName ='Edward Black'
+--3. List all couriers:
+select * from Couriers
+--4. List all packages for a specific order
+select * from Couriers where TrackingNumber ='TN12351'
+--5. List all deliveries for a specific courier
+select * from Couriers where CourierID=6
+--6. List all undelivered packages
+select * from Couriers where Status='Undelivered'
+--7. List all packages that are scheduled for delivery today
+select * from Couriers where DeliveryDate='2025-03-20'
+--8. List all packages with a specific status
+select * from Couriers where Status='In Transit'
+--9. Calculate the total number of packages for each courier
+select CourierID, Count(*) as 'Total Number of Packages' from Couriers
+group by CourierID
+--10. Find the average delivery time for each courier
+select CourierID, avg(datediff(day, DeliveryDate, getdate())) as 'Average Delivery Time in Days' from Couriers
+group by CourierID
+--11. List all packages with a specific weight range
+select * from Couriers where Weight between 3 and 5 
+--12. Retrieve employees whose names contain 'John' 
+select * from Employee where Ename like '%John%'
+--13. Retrieve all courier records with payments greater than $50
+select * from Payment where Amount > 50
