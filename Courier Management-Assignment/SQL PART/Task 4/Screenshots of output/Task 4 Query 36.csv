@@ -1,0 +1,100 @@
+﻿1,John Doe,johndoe@example.com,password123,555-1234,"123 Elm Street, Springfield",1,Standard Delivery,5.50
+2,Jane Smith,janesmith@example.com,password456,555-5678,"456 Oak Avenue, Springfield",1,Standard Delivery,5.50
+3,Alice Johnson,alicej@example.com,password789,555-1122,"789 Pine Road, Springfield",1,Standard Delivery,5.50
+4,Bob Brown,bobbrown@example.com,password101,555-3344,"101 Maple Lane, Springfield",1,Standard Delivery,5.50
+5,Charlie White,charliewhite@example.com,password202,555-5566,"202 Birch Street, Springfield",1,Standard Delivery,5.50
+6,Diana Green,dianagreen@example.com,password303,555-7788,"303 Cedar Drive, Springfield",1,Standard Delivery,5.50
+7,Edward Black,edwardblack@example.com,password404,555-9900,"404 Pine Lane, Springfield",1,Standard Delivery,5.50
+8,Fiona Blue,fionablue@example.com,password505,555-2233,"505 Fir Crescent, Springfield",1,Standard Delivery,5.50
+9,George Yellow,georgeyellow@example.com,password606,555-4455,"606 Redwood Avenue, Springfield",1,Standard Delivery,5.50
+10,Helen Red,helenred@example.com,password707,555-6677,"707 Cherry Boulevard, Springfield",1,Standard Delivery,5.50
+1,John Doe,johndoe@example.com,password123,555-1234,"123 Elm Street, Springfield",2,Express Delivery,10.00
+2,Jane Smith,janesmith@example.com,password456,555-5678,"456 Oak Avenue, Springfield",2,Express Delivery,10.00
+3,Alice Johnson,alicej@example.com,password789,555-1122,"789 Pine Road, Springfield",2,Express Delivery,10.00
+4,Bob Brown,bobbrown@example.com,password101,555-3344,"101 Maple Lane, Springfield",2,Express Delivery,10.00
+5,Charlie White,charliewhite@example.com,password202,555-5566,"202 Birch Street, Springfield",2,Express Delivery,10.00
+6,Diana Green,dianagreen@example.com,password303,555-7788,"303 Cedar Drive, Springfield",2,Express Delivery,10.00
+7,Edward Black,edwardblack@example.com,password404,555-9900,"404 Pine Lane, Springfield",2,Express Delivery,10.00
+8,Fiona Blue,fionablue@example.com,password505,555-2233,"505 Fir Crescent, Springfield",2,Express Delivery,10.00
+9,George Yellow,georgeyellow@example.com,password606,555-4455,"606 Redwood Avenue, Springfield",2,Express Delivery,10.00
+10,Helen Red,helenred@example.com,password707,555-6677,"707 Cherry Boulevard, Springfield",2,Express Delivery,10.00
+1,John Doe,johndoe@example.com,password123,555-1234,"123 Elm Street, Springfield",3,Same Day Delivery,66.00
+2,Jane Smith,janesmith@example.com,password456,555-5678,"456 Oak Avenue, Springfield",3,Same Day Delivery,66.00
+3,Alice Johnson,alicej@example.com,password789,555-1122,"789 Pine Road, Springfield",3,Same Day Delivery,66.00
+4,Bob Brown,bobbrown@example.com,password101,555-3344,"101 Maple Lane, Springfield",3,Same Day Delivery,66.00
+5,Charlie White,charliewhite@example.com,password202,555-5566,"202 Birch Street, Springfield",3,Same Day Delivery,66.00
+6,Diana Green,dianagreen@example.com,password303,555-7788,"303 Cedar Drive, Springfield",3,Same Day Delivery,66.00
+7,Edward Black,edwardblack@example.com,password404,555-9900,"404 Pine Lane, Springfield",3,Same Day Delivery,66.00
+8,Fiona Blue,fionablue@example.com,password505,555-2233,"505 Fir Crescent, Springfield",3,Same Day Delivery,66.00
+9,George Yellow,georgeyellow@example.com,password606,555-4455,"606 Redwood Avenue, Springfield",3,Same Day Delivery,66.00
+10,Helen Red,helenred@example.com,password707,555-6677,"707 Cherry Boulevard, Springfield",3,Same Day Delivery,66.00
+1,John Doe,johndoe@example.com,password123,555-1234,"123 Elm Street, Springfield",4,Overnight Delivery,20.00
+2,Jane Smith,janesmith@example.com,password456,555-5678,"456 Oak Avenue, Springfield",4,Overnight Delivery,20.00
+3,Alice Johnson,alicej@example.com,password789,555-1122,"789 Pine Road, Springfield",4,Overnight Delivery,20.00
+4,Bob Brown,bobbrown@example.com,password101,555-3344,"101 Maple Lane, Springfield",4,Overnight Delivery,20.00
+5,Charlie White,charliewhite@example.com,password202,555-5566,"202 Birch Street, Springfield",4,Overnight Delivery,20.00
+6,Diana Green,dianagreen@example.com,password303,555-7788,"303 Cedar Drive, Springfield",4,Overnight Delivery,20.00
+7,Edward Black,edwardblack@example.com,password404,555-9900,"404 Pine Lane, Springfield",4,Overnight Delivery,20.00
+8,Fiona Blue,fionablue@example.com,password505,555-2233,"505 Fir Crescent, Springfield",4,Overnight Delivery,20.00
+9,George Yellow,georgeyellow@example.com,password606,555-4455,"606 Redwood Avenue, Springfield",4,Overnight Delivery,20.00
+10,Helen Red,helenred@example.com,password707,555-6677,"707 Cherry Boulevard, Springfield",4,Overnight Delivery,20.00
+1,John Doe,johndoe@example.com,password123,555-1234,"123 Elm Street, Springfield",5,International Shipping,2500.00
+2,Jane Smith,janesmith@example.com,password456,555-5678,"456 Oak Avenue, Springfield",5,International Shipping,2500.00
+3,Alice Johnson,alicej@example.com,password789,555-1122,"789 Pine Road, Springfield",5,International Shipping,2500.00
+4,Bob Brown,bobbrown@example.com,password101,555-3344,"101 Maple Lane, Springfield",5,International Shipping,2500.00
+5,Charlie White,charliewhite@example.com,password202,555-5566,"202 Birch Street, Springfield",5,International Shipping,2500.00
+6,Diana Green,dianagreen@example.com,password303,555-7788,"303 Cedar Drive, Springfield",5,International Shipping,2500.00
+7,Edward Black,edwardblack@example.com,password404,555-9900,"404 Pine Lane, Springfield",5,International Shipping,2500.00
+8,Fiona Blue,fionablue@example.com,password505,555-2233,"505 Fir Crescent, Springfield",5,International Shipping,2500.00
+9,George Yellow,georgeyellow@example.com,password606,555-4455,"606 Redwood Avenue, Springfield",5,International Shipping,2500.00
+10,Helen Red,helenred@example.com,password707,555-6677,"707 Cherry Boulevard, Springfield",5,International Shipping,2500.00
+1,John Doe,johndoe@example.com,password123,555-1234,"123 Elm Street, Springfield",6,Heavy Package Delivery,25.00
+2,Jane Smith,janesmith@example.com,password456,555-5678,"456 Oak Avenue, Springfield",6,Heavy Package Delivery,25.00
+3,Alice Johnson,alicej@example.com,password789,555-1122,"789 Pine Road, Springfield",6,Heavy Package Delivery,25.00
+4,Bob Brown,bobbrown@example.com,password101,555-3344,"101 Maple Lane, Springfield",6,Heavy Package Delivery,25.00
+5,Charlie White,charliewhite@example.com,password202,555-5566,"202 Birch Street, Springfield",6,Heavy Package Delivery,25.00
+6,Diana Green,dianagreen@example.com,password303,555-7788,"303 Cedar Drive, Springfield",6,Heavy Package Delivery,25.00
+7,Edward Black,edwardblack@example.com,password404,555-9900,"404 Pine Lane, Springfield",6,Heavy Package Delivery,25.00
+8,Fiona Blue,fionablue@example.com,password505,555-2233,"505 Fir Crescent, Springfield",6,Heavy Package Delivery,25.00
+9,George Yellow,georgeyellow@example.com,password606,555-4455,"606 Redwood Avenue, Springfield",6,Heavy Package Delivery,25.00
+10,Helen Red,helenred@example.com,password707,555-6677,"707 Cherry Boulevard, Springfield",6,Heavy Package Delivery,25.00
+1,John Doe,johndoe@example.com,password123,555-1234,"123 Elm Street, Springfield",7,Fragile Item Handling,30.00
+2,Jane Smith,janesmith@example.com,password456,555-5678,"456 Oak Avenue, Springfield",7,Fragile Item Handling,30.00
+3,Alice Johnson,alicej@example.com,password789,555-1122,"789 Pine Road, Springfield",7,Fragile Item Handling,30.00
+4,Bob Brown,bobbrown@example.com,password101,555-3344,"101 Maple Lane, Springfield",7,Fragile Item Handling,30.00
+5,Charlie White,charliewhite@example.com,password202,555-5566,"202 Birch Street, Springfield",7,Fragile Item Handling,30.00
+6,Diana Green,dianagreen@example.com,password303,555-7788,"303 Cedar Drive, Springfield",7,Fragile Item Handling,30.00
+7,Edward Black,edwardblack@example.com,password404,555-9900,"404 Pine Lane, Springfield",7,Fragile Item Handling,30.00
+8,Fiona Blue,fionablue@example.com,password505,555-2233,"505 Fir Crescent, Springfield",7,Fragile Item Handling,30.00
+9,George Yellow,georgeyellow@example.com,password606,555-4455,"606 Redwood Avenue, Springfield",7,Fragile Item Handling,30.00
+10,Helen Red,helenred@example.com,password707,555-6677,"707 Cherry Boulevard, Springfield",7,Fragile Item Handling,30.00
+1,John Doe,johndoe@example.com,password123,555-1234,"123 Elm Street, Springfield",8,Scheduled Delivery,7.50
+2,Jane Smith,janesmith@example.com,password456,555-5678,"456 Oak Avenue, Springfield",8,Scheduled Delivery,7.50
+3,Alice Johnson,alicej@example.com,password789,555-1122,"789 Pine Road, Springfield",8,Scheduled Delivery,7.50
+4,Bob Brown,bobbrown@example.com,password101,555-3344,"101 Maple Lane, Springfield",8,Scheduled Delivery,7.50
+5,Charlie White,charliewhite@example.com,password202,555-5566,"202 Birch Street, Springfield",8,Scheduled Delivery,7.50
+6,Diana Green,dianagreen@example.com,password303,555-7788,"303 Cedar Drive, Springfield",8,Scheduled Delivery,7.50
+7,Edward Black,edwardblack@example.com,password404,555-9900,"404 Pine Lane, Springfield",8,Scheduled Delivery,7.50
+8,Fiona Blue,fionablue@example.com,password505,555-2233,"505 Fir Crescent, Springfield",8,Scheduled Delivery,7.50
+9,George Yellow,georgeyellow@example.com,password606,555-4455,"606 Redwood Avenue, Springfield",8,Scheduled Delivery,7.50
+10,Helen Red,helenred@example.com,password707,555-6677,"707 Cherry Boulevard, Springfield",8,Scheduled Delivery,7.50
+1,John Doe,johndoe@example.com,password123,555-1234,"123 Elm Street, Springfield",9,Gift Packaging,25.00
+2,Jane Smith,janesmith@example.com,password456,555-5678,"456 Oak Avenue, Springfield",9,Gift Packaging,25.00
+3,Alice Johnson,alicej@example.com,password789,555-1122,"789 Pine Road, Springfield",9,Gift Packaging,25.00
+4,Bob Brown,bobbrown@example.com,password101,555-3344,"101 Maple Lane, Springfield",9,Gift Packaging,25.00
+5,Charlie White,charliewhite@example.com,password202,555-5566,"202 Birch Street, Springfield",9,Gift Packaging,25.00
+6,Diana Green,dianagreen@example.com,password303,555-7788,"303 Cedar Drive, Springfield",9,Gift Packaging,25.00
+7,Edward Black,edwardblack@example.com,password404,555-9900,"404 Pine Lane, Springfield",9,Gift Packaging,25.00
+8,Fiona Blue,fionablue@example.com,password505,555-2233,"505 Fir Crescent, Springfield",9,Gift Packaging,25.00
+9,George Yellow,georgeyellow@example.com,password606,555-4455,"606 Redwood Avenue, Springfield",9,Gift Packaging,25.00
+10,Helen Red,helenred@example.com,password707,555-6677,"707 Cherry Boulevard, Springfield",9,Gift Packaging,25.00
+1,John Doe,johndoe@example.com,password123,555-1234,"123 Elm Street, Springfield",10,Weekend Delivery,1250.00
+2,Jane Smith,janesmith@example.com,password456,555-5678,"456 Oak Avenue, Springfield",10,Weekend Delivery,1250.00
+3,Alice Johnson,alicej@example.com,password789,555-1122,"789 Pine Road, Springfield",10,Weekend Delivery,1250.00
+4,Bob Brown,bobbrown@example.com,password101,555-3344,"101 Maple Lane, Springfield",10,Weekend Delivery,1250.00
+5,Charlie White,charliewhite@example.com,password202,555-5566,"202 Birch Street, Springfield",10,Weekend Delivery,1250.00
+6,Diana Green,dianagreen@example.com,password303,555-7788,"303 Cedar Drive, Springfield",10,Weekend Delivery,1250.00
+7,Edward Black,edwardblack@example.com,password404,555-9900,"404 Pine Lane, Springfield",10,Weekend Delivery,1250.00
+8,Fiona Blue,fionablue@example.com,password505,555-2233,"505 Fir Crescent, Springfield",10,Weekend Delivery,1250.00
+9,George Yellow,georgeyellow@example.com,password606,555-4455,"606 Redwood Avenue, Springfield",10,Weekend Delivery,1250.00
+10,Helen Red,helenred@example.com,password707,555-6677,"707 Cherry Boulevard, Springfield",10,Weekend Delivery,1250.00
