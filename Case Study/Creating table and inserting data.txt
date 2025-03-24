@@ -1,0 +1,74 @@
+create database CarRentaldb
+use CarRentaldb
+--Creating Tables
+CREATE TABLE Vehicle 
+(
+    VehicleID INT PRIMARY KEY,
+    Make VARCHAR(50) NOT NULL,
+    Model VARCHAR(50) NOT NULL,
+    Year INT NOT NULL,
+    DailyRate DECIMAL(10,2) NOT NULL,
+    Status VARCHAR(20) NOT NULL CHECK (status IN ('Available', 'NotAvailable')),
+    PassengerCapacity INT NOT NULL,
+    EngineCapacity DECIMAL(5,2) NOT NULL
+)
+CREATE TABLE Customer 
+(
+    CustomerID INT PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) UNIQUE NOT NULL,
+    PhoneNumber VARCHAR(15) UNIQUE NOT NULL
+)
+CREATE TABLE Lease 
+(
+    LeaseID INT PRIMARY KEY,
+    VehicleID INT NOT NULL,
+    CustomerID INT NOT NULL,
+    StartDate DATE NOT NULL,
+    EndDate DATE NOT NULL,
+    Type VARCHAR(20) NOT NULL CHECK (type IN ('DailyLease', 'MonthlyLease')),
+    FOREIGN KEY (VehicleID) REFERENCES Vehicle(VehicleID),
+    FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID)
+)
+CREATE TABLE Payment 
+(
+    PaymentID INT PRIMARY KEY,
+    LeaseID INT NOT NULL,
+    PaymentDate DATE NOT NULL,
+    Amount DECIMAL(10,2) NOT NULL,
+    FOREIGN KEY (LeaseID) REFERENCES Lease(LeaseID)
+)
+--Inserting Values into the tables
+INSERT INTO Vehicle (VehicleID, Make, Model, Year, DailyRate, Status, PassengerCapacity, EngineCapacity) VALUES
+(1,'Toyota', 'Camry', 2022, 500.00, 'Available', 5, 2.5),
+(2,'Honda', 'Civic', 2021, 450.00, 'Available', 5, 2.0),
+(3,'Ford', 'Mustang', 2023, 480.00, 'NotAvailable', 4, 5.0),
+(4,'Nissan', 'Altima', 2020, 540.00, 'Available', 5, 2.5),
+(5,'BMW', 'X5', 2023, 1200.00, 'Available', 5, 3.0)
+INSERT INTO Customer (CustomerID, FirstName, LastName, Email, PhoneNumber) VALUES
+(6,'John', 'Doe', 'john.doe@email.com', '1234567890'),
+(7,'Jane', 'Smith', 'jane.smith@email.com', '0987654321'),
+(8,'Michael', 'Johnson', 'michael.j@email.com', '1122334455'),
+(9,'Emily', 'Davis', 'emily.d@email.com', '6677889900'),
+(10,'Daniel', 'Brown', 'daniel.b@email.com', '5566778899')
+INSERT INTO Lease (LeaseID, VehicleID, CustomerID, StartDate, EndDate, Type) VALUES
+(11,1, 6, '2025-03-01', '2025-03-07', 'DailyLease'),
+(12,2, 7, '2025-03-10', '2025-04-10', 'MonthlyLease'),
+(13,3, 8, '2025-03-15', '2025-03-22', 'DailyLease'),
+(14,4, 9, '2025-04-01', '2025-05-01', 'MonthlyLease'),
+(15,5, 10, '2025-04-05', '2025-04-12', 'DailyLease')
+INSERT INTO Payment (PaymentID, LeaseID, PaymentDate, Amount) VALUES
+(16, 11, '2025-03-07', 550.00),
+(17, 12, '2025-04-10', 13500.00),
+(18, 13, '2025-03-22', 560.00),
+(19, 14, '2025-05-01', 12000.00),
+(20, 15, '2025-04-12', 1480.00)
+--Displaying Vehicle table
+select * from Vehicle
+--Displaying Customer table
+select * from Customer
+--Displaying Lease table
+select * from Lease 
+--Displaying  Payment table
+select * from Payment
