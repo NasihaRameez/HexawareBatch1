@@ -1,0 +1,42 @@
+create database CrimeManagementdb
+use CrimeManagementdb
+--Creating Tables
+CREATE TABLE Crime 
+(
+ CrimeID INT PRIMARY KEY,
+ IncidentType varchar(255),
+ IncidentDate date,
+ Location varchar(255),
+ Description text,
+ Status varchar(20),
+)
+CREATE TABLE Victim 
+(
+ VictimID INT PRIMARY KEY,
+ CrimeID int references Crime(CrimeID),
+ VName varchar(255),
+ ContactInfo varchar(255),
+ Injuries varchar(255),
+)
+CREATE TABLE Suspect
+(
+ SuspectID INT PRIMARY KEY,
+ CrimeID int references Crime(CrimeID),
+ SName varchar(255),
+ Description text,
+ CriminalHistory text,
+)
+--Inserting data into created tables
+INSERT INTO Crime (CrimeID, IncidentType, IncidentDate, Location, Description, Status) values
+(1, 'Robbery', '2023-09-15', '123 Main St, Cityville', 'Armed robbery at a convenience store', 'Open'),
+(2, 'Homicide', '2023-09-20', '456 Elm St, Townsville', 'Investigation into a murder case', 'Under
+Investigation'),
+(3, 'Theft', '2023-09-10', '789 Oak St, Villagetown', 'Shoplifting incident at a mall', 'Closed')
+INSERT INTO Victim (VictimID, CrimeID, VName, ContactInfo, Injuries) values
+(1, 1, 'John Doe', 'johndoe@example.com', 'Minor injuries'),
+(2, 2, 'Jane Smith', 'janesmith@example.com', 'Deceased'),
+(3, 3, 'Alice Johnson', 'alicejohnson@example.com', 'None')
+INSERT INTO Suspect (SuspectID, CrimeID, SName, Description, CriminalHistory) values
+(1, 1, 'Robber 1', 'Armed and masked robber', 'Previous robbery convictions'),
+(2, 2, 'Unknown', 'Investigation ongoing', NULL),
+(3, 3, 'Suspect 1', 'Shoplifting suspect', 'Prior shoplifting arrests')

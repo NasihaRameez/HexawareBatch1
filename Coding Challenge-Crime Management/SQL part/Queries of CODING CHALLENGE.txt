@@ -1,0 +1,91 @@
+--Queries
+--1. Select all open incidents
+select * from Crime where Status ='Open'
+--2.Find the total number of incidents
+select count(*) as 'Total no. of incidents' from Crime
+--3.List all unique incident types
+select distinct IncidentType from Crime
+--4.Retrieve incidents that occurred between '2023-09-01' and '2023-09-10'
+select * from Crime where IncidentDate between '2023-09-01' and '2023-09-10'
+--5.List persons involved in incidents in descending order of age
+--Adding column age in suspect and victim table
+alter table Suspect add Age int
+alter table Victim add Age int
+--Inserting age into Suspect table
+update Suspect set Age= 40 where SuspectID=1
+update Suspect set Age= 20 where SuspectID=2
+update Suspect set Age= 35 where SuspectID=3
+--Inserting age into Victim table
+update Victim set Age= 30 where VictimID=1
+update Victim set Age= 17 where VictimID=2
+update Victim set Age= 25 where VictimID=3
+--Query
+select v.VName AS VictimName, v.Age AS VictimAge, 
+s.SName AS SuspectName, s.Age AS SuspectAge from Victim v
+FULL OUTER JOIN Suspect s ON v.VictimID = s.SuspectID
+order by VictimAge desc, SuspectAge desc
+--6.Find the average age of persons involved in incidents
+select avg(v.Age) as AverageAgeVictim, avg(s.Age) as AverageAgeSuspect
+from Victim v
+full outer join Suspect s on v.VictimID = s.SuspectID
+--7.List incident types and their counts, only for open cases
+select IncidentType, COUNT(*) as IncidentCount from Crime where Status = 'Open' 
+group by IncidentType
+--8.Find persons with names containing 'Doe'
+select VName from Victim where VName like '%Doe%'
+union
+select SName from Suspect where SName like '%Doe%'
+--9.Retrieve the names of persons involved in open cases and closed cases
+select v.VName as VictimName, s.SName as SuspectName, c.Status from Crime c
+left join Victim v ON c.CrimeID = v.CrimeID
+left join Suspect s ON c.CrimeID = s.CrimeID
+where c.Status in ('Open', 'Closed')
+--10.List incident types where there are persons aged 30 or 35 involved
+select c.IncidentType from Crime c
+left join Victim v on  c.CrimeID = v.CrimeID
+left join Suspect s on c.CrimeID = s.CrimeID
+where(v.Age in (30, 35) or s.Age in (30, 35))
+--11.Find persons involved in incidents of the same type as 'Robbery'
+select v.VName, s.SName from Crime c
+left join Victim v ON c.CrimeID = v.CrimeID
+left join Suspect s ON c.CrimeID = s.CrimeID
+where c.IncidentType = 'Robbery'
+--12.List incident types with more than one open case
+--Beacuse the output is null, changing status for more than one
+update Crime set Status='Open' where CrimeID=3
+update Crime set IncidentType='Robbery' where CrimeID=3
+select IncidentType from Crime where Status = 'Open' 
+group by IncidentType 
+having count(*) > 1
+--13.List all incidents with suspects whose names also appear as victims in other incidents
+select c.* from Crime c 
+join Suspect s ON c.CrimeID = s.CrimeID 
+join Victim v ON s.SName = v.VName
+--14.Retrieve all incidents along with victim and suspect details.
+select c.*, v.VName as VictimName, v.ContactInfo, v.Injuries, s.SName as SuspectName, s.Description, s.CriminalHistory
+from Crime c
+left join Victim v ON c.CrimeID = v.CrimeID
+left join Suspect s ON c.CrimeID = s.CrimeID
+--15.Find incidents where the suspect is older than any victim.
+select c.* from Crime c
+join Victim v ON c.CrimeID = v.CrimeID
+join Suspect s ON c.CrimeID = s.CrimeID
+where s.Age > v.Age
+--16.Find suspects involved in multiple incidents
+select SName, COUNT(*) AS IncidentCount FROM Suspect 
+group by SName 
+having count(*) > 1
+--Updating to get output
+update Suspect set SName='Suspect 1' where SuspectID= 1
+--17.List incidents with no suspects involved
+select * from Crime where CrimeID not in (select CrimeID from Suspect)
+--18.List all cases where at least one incident is of type 'Homicide' and all other incidents are of type 'Robbery'
+select * from Crime
+where not exists (select 1 from Crime where IncidentType not in ('Homicide', 'Robbery'))
+--19.Retrieve a list of all incidents and the associated suspects, showing suspects for each incident, or 'No Suspect' if there are none.
+select c.*, s.SName as SuspectName from Crime c
+left join Suspect s on c.CrimeID = s.CrimeID
+--20.List all suspects who have been involved in incidents with incident types 'Robbery' or 'Assault'
+select s.*, c.IncidentType from Suspect s
+join Crime c ON s.CrimeID = c.CrimeID
+where c.IncidentType in ('Robbery', 'Assault')
