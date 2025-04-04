@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Day7Connection": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
