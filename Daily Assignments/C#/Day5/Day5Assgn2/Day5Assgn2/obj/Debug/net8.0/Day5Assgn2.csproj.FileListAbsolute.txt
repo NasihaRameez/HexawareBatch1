@@ -1,0 +1,14 @@
+D:\VS repos\Day5Assgn2\Day5Assgn2\bin\Debug\net8.0\Day5Assgn2.exe
+D:\VS repos\Day5Assgn2\Day5Assgn2\bin\Debug\net8.0\Day5Assgn2.deps.json
+D:\VS repos\Day5Assgn2\Day5Assgn2\bin\Debug\net8.0\Day5Assgn2.runtimeconfig.json
+D:\VS repos\Day5Assgn2\Day5Assgn2\bin\Debug\net8.0\Day5Assgn2.dll
+D:\VS repos\Day5Assgn2\Day5Assgn2\bin\Debug\net8.0\Day5Assgn2.pdb
+D:\VS repos\Day5Assgn2\Day5Assgn2\obj\Debug\net8.0\Day5Assgn2.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS repos\Day5Assgn2\Day5Assgn2\obj\Debug\net8.0\Day5Assgn2.AssemblyInfoInputs.cache
+D:\VS repos\Day5Assgn2\Day5Assgn2\obj\Debug\net8.0\Day5Assgn2.AssemblyInfo.cs
+D:\VS repos\Day5Assgn2\Day5Assgn2\obj\Debug\net8.0\Day5Assgn2.csproj.CoreCompileInputs.cache
+D:\VS repos\Day5Assgn2\Day5Assgn2\obj\Debug\net8.0\Day5Assgn2.dll
+D:\VS repos\Day5Assgn2\Day5Assgn2\obj\Debug\net8.0\refint\Day5Assgn2.dll
+D:\VS repos\Day5Assgn2\Day5Assgn2\obj\Debug\net8.0\Day5Assgn2.pdb
+D:\VS repos\Day5Assgn2\Day5Assgn2\obj\Debug\net8.0\Day5Assgn2.genruntimeconfig.cache
+D:\VS repos\Day5Assgn2\Day5Assgn2\obj\Debug\net8.0\ref\Day5Assgn2.dll

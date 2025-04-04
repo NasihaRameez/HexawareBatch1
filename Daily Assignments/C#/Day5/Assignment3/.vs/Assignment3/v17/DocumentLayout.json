@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VS repos\\Assignment3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDC9F82-1F12-48D3-A79D-CCFB87E789CD}|Assignment3\\Assignment3.csproj|d:\\vs repos\\assignment3\\assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDC9F82-1F12-48D3-A79D-CCFB87E789CD}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDC9F82-1F12-48D3-A79D-CCFB87E789CD}|Assignment3\\Assignment3.csproj|d:\\vs repos\\assignment3\\assignment3\\user defined exception assgn3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDC9F82-1F12-48D3-A79D-CCFB87E789CD}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\user defined exception assgn3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDC9F82-1F12-48D3-A79D-CCFB87E789CD}|Assignment3\\Assignment3.csproj|d:\\vs repos\\assignment3\\assignment3\\interface assgn3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDC9F82-1F12-48D3-A79D-CCFB87E789CD}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\interface assgn3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDC9F82-1F12-48D3-A79D-CCFB87E789CD}|Assignment3\\Assignment3.csproj|d:\\vs repos\\assignment3\\assignment3\\inheritance assgn3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDC9F82-1F12-48D3-A79D-CCFB87E789CD}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\inheritance assgn3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inheritance Assgn3.cs",
+              "DocumentMoniker": "D:\\VS repos\\Assignment3\\Assignment3\\Inheritance Assgn3.cs",
+              "RelativeDocumentMoniker": "Assignment3\\Inheritance Assgn3.cs",
+              "ToolTip": "D:\\VS repos\\Assignment3\\Assignment3\\Inheritance Assgn3.cs",
+              "RelativeToolTip": "Assignment3\\Inheritance Assgn3.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAuwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:18:46.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User defined exception Assgn3.cs",
+              "DocumentMoniker": "D:\\VS repos\\Assignment3\\Assignment3\\User defined exception Assgn3.cs",
+              "RelativeDocumentMoniker": "Assignment3\\User defined exception Assgn3.cs",
+              "ToolTip": "D:\\VS repos\\Assignment3\\Assignment3\\User defined exception Assgn3.cs",
+              "RelativeToolTip": "Assignment3\\User defined exception Assgn3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:33:43.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interface Assgn3.cs",
+              "DocumentMoniker": "D:\\VS repos\\Assignment3\\Assignment3\\Interface Assgn3.cs",
+              "RelativeDocumentMoniker": "Assignment3\\Interface Assgn3.cs",
+              "ToolTip": "D:\\VS repos\\Assignment3\\Assignment3\\Interface Assgn3.cs",
+              "RelativeToolTip": "Assignment3\\Interface Assgn3.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwDoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:06:32.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VS repos\\Assignment3\\Assignment3\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment3\\Program.cs",
+              "ToolTip": "D:\\VS repos\\Assignment3\\Assignment3\\Program.cs",
+              "RelativeToolTip": "Assignment3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:29:49.892Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
