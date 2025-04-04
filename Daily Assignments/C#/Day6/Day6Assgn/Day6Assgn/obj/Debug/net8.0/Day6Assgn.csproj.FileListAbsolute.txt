@@ -1,0 +1,14 @@
+D:\VS repos\Day6Assgn\Day6Assgn\bin\Debug\net8.0\Day6Assgn.exe
+D:\VS repos\Day6Assgn\Day6Assgn\bin\Debug\net8.0\Day6Assgn.deps.json
+D:\VS repos\Day6Assgn\Day6Assgn\bin\Debug\net8.0\Day6Assgn.runtimeconfig.json
+D:\VS repos\Day6Assgn\Day6Assgn\bin\Debug\net8.0\Day6Assgn.dll
+D:\VS repos\Day6Assgn\Day6Assgn\bin\Debug\net8.0\Day6Assgn.pdb
+D:\VS repos\Day6Assgn\Day6Assgn\obj\Debug\net8.0\Day6Assgn.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS repos\Day6Assgn\Day6Assgn\obj\Debug\net8.0\Day6Assgn.AssemblyInfoInputs.cache
+D:\VS repos\Day6Assgn\Day6Assgn\obj\Debug\net8.0\Day6Assgn.AssemblyInfo.cs
+D:\VS repos\Day6Assgn\Day6Assgn\obj\Debug\net8.0\Day6Assgn.csproj.CoreCompileInputs.cache
+D:\VS repos\Day6Assgn\Day6Assgn\obj\Debug\net8.0\Day6Assgn.dll
+D:\VS repos\Day6Assgn\Day6Assgn\obj\Debug\net8.0\refint\Day6Assgn.dll
+D:\VS repos\Day6Assgn\Day6Assgn\obj\Debug\net8.0\Day6Assgn.pdb
+D:\VS repos\Day6Assgn\Day6Assgn\obj\Debug\net8.0\Day6Assgn.genruntimeconfig.cache
+D:\VS repos\Day6Assgn\Day6Assgn\obj\Debug\net8.0\ref\Day6Assgn.dll

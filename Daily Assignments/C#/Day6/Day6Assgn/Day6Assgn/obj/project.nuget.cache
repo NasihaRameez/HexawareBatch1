@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZIlxy1fIK+A=",
+  "success": true,
+  "projectFilePath": "D:\\VS repos\\Day6Assgn\\Day6Assgn\\Day6Assgn.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NASIHA RAMEEZ\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
