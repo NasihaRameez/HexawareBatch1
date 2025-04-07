@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Day7Connection")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab4be79d88428db430100d285cf149d6c5c116f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Day7Connection")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Day7Connection")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

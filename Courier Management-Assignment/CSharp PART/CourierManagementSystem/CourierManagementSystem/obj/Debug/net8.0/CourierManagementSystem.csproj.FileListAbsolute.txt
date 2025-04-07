@@ -1,0 +1,5 @@
+D:\VS repos\CourierManagementSystem\CourierManagementSystem\obj\Debug\net8.0\CourierManagementSystem.csproj.AssemblyReference.cache
+D:\VS repos\CourierManagementSystem\CourierManagementSystem\obj\Debug\net8.0\CourierManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS repos\CourierManagementSystem\CourierManagementSystem\obj\Debug\net8.0\CourierManagementSystem.AssemblyInfoInputs.cache
+D:\VS repos\CourierManagementSystem\CourierManagementSystem\obj\Debug\net8.0\CourierManagementSystem.AssemblyInfo.cs
+D:\VS repos\CourierManagementSystem\CourierManagementSystem\obj\Debug\net8.0\CourierManagementSystem.csproj.CoreCompileInputs.cache

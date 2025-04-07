@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\VS repos\\Day7Connection\\",
+  "WorkspaceRootPath": "D:\\HexawareBatch1\\Daily Assignments\\C#\\Day7\\Day7Connection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07355069-AB5C-4A7A-B92F-F472C4F5B82C}|Day7Connection\\Day7Connection.csproj|d:\\vs repos\\day7connection\\day7connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{07355069-AB5C-4A7A-B92F-F472C4F5B82C}|Day7Connection\\Day7Connection.csproj|d:\\hexawarebatch1\\daily assignments\\c#\\day7\\day7connection\\day7connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07355069-AB5C-4A7A-B92F-F472C4F5B82C}|Day7Connection\\Day7Connection.csproj|solutionrelative:day7connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\VS repos\\Day7Connection\\Day7Connection\\Program.cs",
+              "DocumentMoniker": "D:\\HexawareBatch1\\Daily Assignments\\C#\\Day7\\Day7Connection\\Day7Connection\\Program.cs",
               "RelativeDocumentMoniker": "Day7Connection\\Program.cs",
-              "ToolTip": "D:\\VS repos\\Day7Connection\\Day7Connection\\Program.cs",
+              "ToolTip": "D:\\HexawareBatch1\\Daily Assignments\\C#\\Day7\\Day7Connection\\Day7Connection\\Program.cs",
               "RelativeToolTip": "Day7Connection\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

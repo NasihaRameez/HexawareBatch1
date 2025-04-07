@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q842mCvrllg=",
+  "dgSpecHash": "BcTu+Phku64=",
   "success": true,
-  "projectFilePath": "D:\\VS repos\\Day7Connection\\Day7Connection\\Day7Connection.csproj",
+  "projectFilePath": "D:\\HexawareBatch1\\Daily Assignments\\C#\\Day7\\Day7Connection\\Day7Connection\\Day7Connection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NASIHA RAMEEZ\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512",
     "C:\\Users\\NASIHA RAMEEZ\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
