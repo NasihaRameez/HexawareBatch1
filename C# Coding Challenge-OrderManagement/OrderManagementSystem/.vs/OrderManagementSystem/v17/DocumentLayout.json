@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\VS repos\\OrderManagementSystem\\",
+  "WorkspaceRootPath": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\vs repos\\ordermanagementsystem\\ordermanagementsystem\\main\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\hexawarebatch1\\c# coding challenge-ordermanagement\\ordermanagementsystem\\ordermanagementsystem\\main\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\main\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\vs repos\\ordermanagementsystem\\ordermanagementsystem\\dao\\orderprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\hexawarebatch1\\c# coding challenge-ordermanagement\\ordermanagementsystem\\ordermanagementsystem\\dao\\orderprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\dao\\orderprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\vs repos\\ordermanagementsystem\\ordermanagementsystem\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\vs repos\\ordermanagementsystem\\ordermanagementsystem\\dao\\iordermanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\hexawarebatch1\\c# coding challenge-ordermanagement\\ordermanagementsystem\\ordermanagementsystem\\dao\\iordermanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\dao\\iordermanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\vs repos\\ordermanagementsystem\\ordermanagementsystem\\main\\mainmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\hexawarebatch1\\c# coding challenge-ordermanagement\\ordermanagementsystem\\ordermanagementsystem\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\hexawarebatch1\\c# coding challenge-ordermanagement\\ordermanagementsystem\\ordermanagementsystem\\main\\mainmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\main\\mainmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\vs repos\\ordermanagementsystem\\ordermanagementsystem\\util\\dbutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\hexawarebatch1\\c# coding challenge-ordermanagement\\ordermanagementsystem\\ordermanagementsystem\\util\\dbutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\util\\dbutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\vs repos\\ordermanagementsystem\\ordermanagementsystem\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\hexawarebatch1\\c# coding challenge-ordermanagement\\ordermanagementsystem\\ordermanagementsystem\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\vs repos\\ordermanagementsystem\\ordermanagementsystem\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\hexawarebatch1\\c# coding challenge-ordermanagement\\ordermanagementsystem\\ordermanagementsystem\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\vs repos\\ordermanagementsystem\\ordermanagementsystem\\entity\\electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\hexawarebatch1\\c# coding challenge-ordermanagement\\ordermanagementsystem\\ordermanagementsystem\\entity\\electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\entity\\electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\vs repos\\ordermanagementsystem\\ordermanagementsystem\\entity\\clothing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\hexawarebatch1\\c# coding challenge-ordermanagement\\ordermanagementsystem\\ordermanagementsystem\\entity\\clothing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\entity\\clothing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\vs repos\\ordermanagementsystem\\ordermanagementsystem\\ordermanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|d:\\hexawarebatch1\\c# coding challenge-ordermanagement\\ordermanagementsystem\\ordermanagementsystem\\ordermanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7C32AD7D-A16E-4174-A8C4-4AD9BB0DF2D9}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\ordermanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -60,11 +60,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "OrderManagement.cs",
-              "DocumentMoniker": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Main\\OrderManagement.cs",
+              "DocumentMoniker": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Main\\OrderManagement.cs",
               "RelativeDocumentMoniker": "OrderManagementSystem\\Main\\OrderManagement.cs",
-              "ToolTip": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Main\\OrderManagement.cs",
+              "ToolTip": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Main\\OrderManagement.cs",
               "RelativeToolTip": "OrderManagementSystem\\Main\\OrderManagement.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAQwFoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADwAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T07:17:51.589Z",
               "EditorCaption": ""
@@ -73,48 +73,46 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "DBUtil.cs",
-              "DocumentMoniker": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Util\\DBUtil.cs",
+              "DocumentMoniker": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Util\\DBUtil.cs",
               "RelativeDocumentMoniker": "OrderManagementSystem\\Util\\DBUtil.cs",
-              "ToolTip": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Util\\DBUtil.cs",
+              "ToolTip": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Util\\DBUtil.cs",
               "RelativeToolTip": "OrderManagementSystem\\Util\\DBUtil.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T07:13:02.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T07:13:02.06Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Order.cs",
-              "DocumentMoniker": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Order.cs",
+              "DocumentMoniker": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Order.cs",
               "RelativeDocumentMoniker": "OrderManagementSystem\\Entity\\Order.cs",
-              "ToolTip": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Order.cs",
+              "ToolTip": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Order.cs",
               "RelativeToolTip": "OrderManagementSystem\\Entity\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T07:05:51.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T07:05:51.056Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "OrderProcessor.cs",
-              "DocumentMoniker": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Dao\\OrderProcessor.cs",
+              "DocumentMoniker": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Dao\\OrderProcessor.cs",
               "RelativeDocumentMoniker": "OrderManagementSystem\\Dao\\OrderProcessor.cs",
-              "ToolTip": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Dao\\OrderProcessor.cs",
+              "ToolTip": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Dao\\OrderProcessor.cs",
               "RelativeToolTip": "OrderManagementSystem\\Dao\\OrderProcessor.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAiwN0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwKoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T07:02:44.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IOrderManagementRepository.cs",
-              "DocumentMoniker": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Dao\\IOrderManagementRepository.cs",
+              "DocumentMoniker": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Dao\\IOrderManagementRepository.cs",
               "RelativeDocumentMoniker": "OrderManagementSystem\\Dao\\IOrderManagementRepository.cs",
-              "ToolTip": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Dao\\IOrderManagementRepository.cs",
+              "ToolTip": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Dao\\IOrderManagementRepository.cs",
               "RelativeToolTip": "OrderManagementSystem\\Dao\\IOrderManagementRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -124,80 +122,74 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "OrderManagementSystem",
-              "DocumentMoniker": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\OrderManagementSystem.csproj",
+              "Title": "OrderManagementSystem.csproj",
+              "DocumentMoniker": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\OrderManagementSystem.csproj",
               "RelativeDocumentMoniker": "OrderManagementSystem\\OrderManagementSystem.csproj",
-              "ToolTip": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\OrderManagementSystem.csproj",
+              "ToolTip": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\OrderManagementSystem.csproj",
               "RelativeToolTip": "OrderManagementSystem\\OrderManagementSystem.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-09T06:36:34.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:36:34.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Entity\\User.cs",
+              "DocumentMoniker": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Entity\\User.cs",
               "RelativeDocumentMoniker": "OrderManagementSystem\\Entity\\User.cs",
-              "ToolTip": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Entity\\User.cs",
+              "ToolTip": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Entity\\User.cs",
               "RelativeToolTip": "OrderManagementSystem\\Entity\\User.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:31:11.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:31:11.641Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Clothing.cs",
-              "DocumentMoniker": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Clothing.cs",
+              "DocumentMoniker": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Clothing.cs",
               "RelativeDocumentMoniker": "OrderManagementSystem\\Entity\\Clothing.cs",
-              "ToolTip": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Clothing.cs",
+              "ToolTip": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Clothing.cs",
               "RelativeToolTip": "OrderManagementSystem\\Entity\\Clothing.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:13:01.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:13:01.294Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Electronics.cs",
-              "DocumentMoniker": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Electronics.cs",
+              "DocumentMoniker": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Electronics.cs",
               "RelativeDocumentMoniker": "OrderManagementSystem\\Entity\\Electronics.cs",
-              "ToolTip": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Electronics.cs",
+              "ToolTip": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Electronics.cs",
               "RelativeToolTip": "OrderManagementSystem\\Entity\\Electronics.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:03:46.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:03:46.483Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Product.cs",
-              "DocumentMoniker": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Product.cs",
+              "DocumentMoniker": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Product.cs",
               "RelativeDocumentMoniker": "OrderManagementSystem\\Entity\\Product.cs",
-              "ToolTip": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Product.cs",
+              "ToolTip": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Entity\\Product.cs",
               "RelativeToolTip": "OrderManagementSystem\\Entity\\Product.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T05:53:20.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T05:53:20.747Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainModule.cs",
-              "DocumentMoniker": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Main\\MainModule.cs",
+              "DocumentMoniker": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Main\\MainModule.cs",
               "RelativeDocumentMoniker": "OrderManagementSystem\\Main\\MainModule.cs",
-              "ToolTip": "D:\\VS repos\\OrderManagementSystem\\OrderManagementSystem\\Main\\MainModule.cs",
+              "ToolTip": "D:\\HexawareBatch1\\C# Coding Challenge-OrderManagement\\OrderManagementSystem\\OrderManagementSystem\\Main\\MainModule.cs",
               "RelativeToolTip": "OrderManagementSystem\\Main\\MainModule.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T05:51:20.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T05:51:20.257Z"
             }
           ]
         }
