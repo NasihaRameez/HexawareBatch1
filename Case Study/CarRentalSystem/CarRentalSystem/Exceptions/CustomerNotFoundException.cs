@@ -8,7 +8,7 @@ namespace CarRentalSystem.Exceptions
 {
     public class CustomerNotFoundException : Exception
     {
-        //public CustomerNotFoundException() : base("Customer not found in the database.") { }
+        public CustomerNotFoundException() : base("Customer not found in the database.") { }
 
         public CustomerNotFoundException(string message) : base(message) { }
 

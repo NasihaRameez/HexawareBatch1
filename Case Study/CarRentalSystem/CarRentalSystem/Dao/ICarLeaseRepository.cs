@@ -20,18 +20,19 @@ namespace CarRentalSystem.Dao
 
 
         // Customer Management
-            void AddCustomer(Customer customer);
-            void RemoveCustomer(int customerID);
+            public void AddCustomer(Customer customer);
+            public void RemoveCustomer(int customerID);
             List<Customer> ListCustomers();
-            Customer FindCustomerById(int customerID); 
+            public Customer FindCustomerById(int customerID); 
 
             // Lease Management
-            Lease CreateLease(int customerID, int carID, DateTime startDate, DateTime endDate); 
-            Lease ReturnVehicle(int leaseID); 
+            public Lease CreateLease(int customerID, int vehicleID, DateTime startDate, DateTime endDate, string type);
+            public Lease GetLeaseById(int leaseID);
+            public bool ReturnVehicle(int leaseID); 
             List<Lease> ListActiveLeases(); 
             List<Lease> ListLeaseHistory(); 
 
             // Payment Handling
-            void RecordPayment(Lease lease, double amount);
+            public void RecordPayment(int paymentID,Lease lease, double amount);
         }
 }

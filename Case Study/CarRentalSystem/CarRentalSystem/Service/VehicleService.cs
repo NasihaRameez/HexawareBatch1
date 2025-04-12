@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 using CarRentalSystem.Util;
 using CarRentalSystem.Exceptions;
 using CarRentalSystem.Entity;
+using System.Runtime.ConstrainedExecution;
 
 namespace CarRentalSystem.Service
 {
     public class VehicleService
     {
-        public static void FindCar(int vehicleId)
+        public static void FindCarByID(int vehicleId)
         {
             SqlConnection connection = DBConnection.GetConnection();
             connection.Open();
@@ -30,25 +31,10 @@ namespace CarRentalSystem.Service
             Console.WriteLine("Car found!");
             connection.Close();
         }
-        private readonly string _connectionString;
 
-        public VehicleService(string connectionString)
-        {
-            _connectionString = connectionString;
-        }
-
-
-        public void CreateCar(string make, string model)
-        {
-            using (SqlConnection conn = new SqlConnection(_connectionString))
-            {
-                conn.Open();
-                SqlCommand cmd = new SqlCommand("INSERT INTO Cars (Make, Model) VALUES (@make, @model)", conn);
-                cmd.Parameters.AddWithValue("@make", make);
-                cmd.Parameters.AddWithValue("@model", model);
-                cmd.ExecuteNonQuery();
-            }
-
-        }
+       
     }
 }
+       
+        
+       
